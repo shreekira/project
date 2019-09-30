@@ -1,10 +1,9 @@
 
 #include <stdio.h>
-#include<stblib.h>
 #include<math.h>
 void main()
 {
-    int t=1,c=0,d=0;
+    int t=1,c=0,d=0,k=0,n,a[100],small=0;
     scanf("%d",&t);
     if(t<=10)
     {
